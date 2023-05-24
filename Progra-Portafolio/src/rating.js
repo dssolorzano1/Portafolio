@@ -14,6 +14,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidebar").style.display = "none";
 }
-    
+ 
 
 window.customElements.define('my-rating', Rating);
