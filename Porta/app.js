@@ -9,7 +9,7 @@ Vue.component('componente', {
     template: `
       <div class="componente">
         <div class="image-container">
-          <img width="215" :src="image" :alt="title" @click="toggleInfo" />
+          <img width="215" :src="image" :alt="title" @mouseover="showInfo = true" @mouseout="showInfo = false" />
         </div>
         <div class="content-container">
           <h2>{{title}}</h2>
